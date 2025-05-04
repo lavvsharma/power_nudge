@@ -1,6 +1,6 @@
 [project]
 name = "power-nudge"
-version = "0.2.1"
+version = "0.2.2"
 description = "A macOS utility that alerts you via WhatsApp when your battery reaches a defined threshold using Twilio."
 authors = [
     { name = "Lav Sharma", email = "lavsharma2016@gmail.com" }
@@ -26,7 +26,7 @@ classifiers = [
 
 [tool.poetry]
 packages = [{ include = "power_nudge", from = "src" }]
-include = ["src/settings.toml"]
+include = ["src/power_nudge/settings.toml"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

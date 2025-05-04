@@ -2,7 +2,7 @@ import time
 
 from twilio_helper.main import TwilioHelper
 
-import src.config as config
+import src.power_nudge.config as config
 from src.power_nudge.utils.helper import get_battery_percentage, is_wifi_enabled, turn_wifi_on, has_internet
 from src.power_nudge.utils.logger import log
 
